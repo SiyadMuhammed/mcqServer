@@ -1,0 +1,15 @@
+C:\testProjects\McqAlpha\McqRepository\bin\Debug\McqRepository.dll
+C:\testProjects\McqAlpha\McqRepository\bin\Debug\McqRepository.pdb
+C:\testProjects\McqAlpha\McqRepository\bin\Debug\Dapper.dll
+C:\testProjects\McqAlpha\McqRepository\bin\Debug\Dapper.xml
+C:\testProjects\McqAlpha\McqRepository\obj\Debug\McqRepository.csproj.CoreCompileInputs.cache
+C:\testProjects\McqAlpha\McqRepository\obj\Debug\McqRepository.dll
+C:\testProjects\McqAlpha\McqRepository\obj\Debug\McqRepository.pdb
+C:\testProjects\mcqServer\McqRepository\bin\Debug\McqRepository.dll
+C:\testProjects\mcqServer\McqRepository\bin\Debug\McqRepository.pdb
+C:\testProjects\mcqServer\McqRepository\bin\Debug\Dapper.dll
+C:\testProjects\mcqServer\McqRepository\bin\Debug\Dapper.xml
+C:\testProjects\mcqServer\McqRepository\obj\Debug\McqRepository.csprojResolveAssemblyReference.cache
+C:\testProjects\mcqServer\McqRepository\obj\Debug\McqRepository.csproj.CoreCompileInputs.cache
+C:\testProjects\mcqServer\McqRepository\obj\Debug\McqRepository.dll
+C:\testProjects\mcqServer\McqRepository\obj\Debug\McqRepository.pdb

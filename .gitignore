@@ -1,3 +1,7 @@
 # compiled output
 /McqWeb/bin
 /McqWeb/obj
+/McqRepository/bin
+/McqRepository/obj
+/WebUI
+/packages

@@ -9,6 +9,7 @@ using McqWeb.Services;
 
 namespace McqWeb.Controllers
 {
+    [Authorize]
     public class QueryCategoryController : BaseApiController
     {
         private readonly QueryTypeService _queryTypeService;

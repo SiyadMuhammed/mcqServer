@@ -10,6 +10,7 @@ using Query = McqWeb.Models.Query;
 
 namespace McqWeb.Controllers
 {
+    [Authorize]
     public class QueryController : BaseApiController
     {
         private readonly QueryService _queryService;

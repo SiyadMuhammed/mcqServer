@@ -9,6 +9,7 @@ using McqWeb.Services;
 
 namespace McqWeb.Controllers
 {
+    [Authorize]
     public class PaperCategoryController : BaseApiController
     {
         private readonly PaperTypeService _paperTypeService;

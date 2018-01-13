@@ -10,6 +10,7 @@ using PaperMetadata = McqWeb.Models.PaperMetadata;
 
 namespace McqWeb.Controllers
 {
+    [Authorize]
     public class PaperController : BaseApiController
     {
         private readonly PaperService _paperService;

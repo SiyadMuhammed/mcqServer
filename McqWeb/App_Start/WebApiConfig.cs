@@ -1,5 +1,8 @@
-﻿using System.Web.Http;
+﻿using System.Linq;
+using System.Net.Http.Formatting;
+using System.Web.Http;
 using System.Web.Http.Cors;
+using Newtonsoft.Json.Serialization;
 
 namespace McqWeb
 {
@@ -7,8 +10,8 @@ namespace McqWeb
     {
         public static void Register(HttpConfiguration config)
         {
-            var cors = new EnableCorsAttribute("https://www.mcqadmin.com", "*", "*");
-            config.EnableCors(cors);
+            //var cors = new EnableCorsAttribute("http://www.mcqadmin.com", "*", "*");
+            //config.EnableCors(cors);
 
             config.MapHttpAttributeRoutes();
 
@@ -17,6 +20,9 @@ namespace McqWeb
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
+            jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
         }
     }
 }
